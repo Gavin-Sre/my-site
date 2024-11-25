@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800" width="1600" height="1600">
+  <symbol id="SvgjsSymbol1033">
+    <polygon points="0,43.75 87.5,0 175,43.75 87.5,87.5"></polygon>
+  </symbol>
+  <symbol id="SvgjsSymbol1034">
+    <polygon points="0,43.75 87.5,87.5 87.5,175 0,131.25"></polygon>
+  </symbol>
+  <symbol id="SvgjsSymbol1035">
+    <polygon points="87.5,87.5 175,43.75 175,131.25 87.5,175"></polygon>
+  </symbol>
+  <g shape-rendering="crispEdges">
+    <g>
+      <use xlink:href="#SvgjsSymbol1033" x="43.75" y="612.5" fill="hsl(220, 72%, 59%)"></use>
+      <use xlink:href="#SvgjsSymbol1034" x="43.75" y="612.5" fill="#84acff"></use>
+      <use xlink:href="#SvgjsSymbol1035" x="43.75" y="612.5" fill="#0052af"></use>
+    </g>
+    <g>
+      <use xlink:href="#SvgjsSymbol1033" x="218.75" y="612.5" fill="hsl(220, 72%, 59%)"></use>
+      <use xlink:href="#SvgjsSymbol1034" x="218.75" y="612.5" fill="#84acff"></use>
+      <use xlink:href="#SvgjsSymbol1035" x="218.75" y="612.5" fill="#0052af"></use>
+    </g>
+    <g>
+      <use xlink:href="#SvgjsSymbol1033" x="393.75" y="612.5" fill="hsl(220, 72%, 59%)"></use>
+      <use xlink:href="#SvgjsSymbol1034" x="393.75" y="612.5" fill="#84acff"></use>
+      <use xlink:href="#SvgjsSymbol1035" x="393.75" y="612.5" fill="#0052af"></use>
+    </g>
+    <g>
+      <use xlink:href="#SvgjsSymbol1033" x="568.75" y="612.5" fill="hsl(220, 72%, 59%)"></use>
+      <use xlink:href="#SvgjsSymbol1034" x="568.75" y="612.5" fill="#84acff"></use>
+      <use xlink:href="#SvgjsSymbol1035" x="568.75" y="612.5" fill="#0052af"></use>
+    </g>
+    <g>
+      <use xlink:href="#SvgjsSymbol1033" x="131.25" y="481.25" fill="hsl(220, 72%, 59%)"></use>
+      <use xlink:href="#SvgjsSymbol1034" x="131.25" y="481.25" fill="#84acff"></use>
+      <use xlink:href="#SvgjsSymbol1035" x="131.25" y="481.25" fill="#0052af"></use>
+    </g>
+    <g>
+      <use xlink:href="#SvgjsSymbol1033" x="306.25" y="481.25" fill="hsl(220, 72%, 59%)"></use>
+      <use xlink:href="#SvgjsSymbol1034" x="306.25" y="481.25" fill="#84acff"></use>
+      <use xlink:href="#SvgjsSymbol1035" x="306.25" y="481.25" fill="#0052af"></use>
+    </g>
+    <g>
+      <use xlink:href="#SvgjsSymbol1033" x="481.25" y="481.25" fill="hsl(220, 72%, 59%)"></use>
+      <use xlink:href="#SvgjsSymbol1034" x="481.25" y="481.25" fill="#84acff"></use>
+      <use xlink:href="#SvgjsSymbol1035" x="481.25" y="481.25" fill="#0052af"></use>
+    </g>
+    <g>
+      <use xlink:href="#SvgjsSymbol1033" x="218.75" y="350" fill="hsl(220, 72%, 59%)"></use>
+      <use xlink:href="#SvgjsSymbol1034" x="218.75" y="350" fill="#84acff"></use>
+      <use xlink:href="#SvgjsSymbol1035" x="218.75" y="350" fill="#0052af"></use>
+    </g>
+    <g>
+      <use xlink:href="#SvgjsSymbol1033" x="393.75" y="350" fill="hsl(220, 72%, 59%)"></use>
+      <use xlink:href="#SvgjsSymbol1034" x="393.75" y="350" fill="#84acff"></use>
+      <use xlink:href="#SvgjsSymbol1035" x="393.75" y="350" fill="#0052af"></use>
+    </g>
+    <g>
+      <use xlink:href="#SvgjsSymbol1033" x="306.25" y="218.75" fill="hsl(220, 72%, 59%)"></use>
+      <use xlink:href="#SvgjsSymbol1034" x="306.25" y="218.75" fill="#84acff"></use>
+      <use xlink:href="#SvgjsSymbol1035" x="306.25" y="218.75" fill="#0052af"></use>
+    </g>
+  </g>
+  <g></g>
+</svg>
