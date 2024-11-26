@@ -13,13 +13,18 @@ export default {
         foreground: "var(--foreground)",
       },
       keyframes: {
-        slide: {
-          '0%': { transform: 'translateX(-50%)', opacity: '0' },
-          '100%': { transform: 'translateX(0)', opacity: '1' }
-        }
+        "slide-right": {
+          "0%": { transform: "translateX(-50%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
+        "slide-left": {
+          "0%": { transform: "translateX(50%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
       },
       animation: {
-        slide: 'slide 1s ease-in-out forwards'
+        "slide-right": "slide-right 1s ease-in-out forwards",
+        "slide-left": "slide-left 1s ease-in-out forwards",
       },
     },
   },

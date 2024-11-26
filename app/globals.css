@@ -21,23 +21,80 @@ body {
 }
 
 h1 {
-  font-size: 80px;
-  font-weight: 900;
+  font-size: 50px;
+  font-weight: 700;
 }
 
 h2 {
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 400;
 }
 
 .section-slider {
   transform: translateX(12rem);
 }
 
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {
-  .section-slider {
-    transform: translateX(12rem);
+/* Small devices 640px and up */
+@media (min-width: 640px) {
+  h1 {
+    font-size: 80px;
+    font-weight: 900;
   }
-} */
+
+  h2 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+/* Medium devices 768px and up */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 70px;
+    font-weight: 800;
+  }
+
+  h2 {
+    font-size: 35px;
+    font-weight: 500;
+  }
+}
+
+/* Large devices 1024px and up */
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 80px;
+    font-weight: 900;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+
+/* Extra large 1280px and up */
+@media (min-width: 1280px) {
+  h1 {
+    font-size: 80px;
+    font-weight: 900;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+
+/* 2XL 1536px and up */
+@media (min-width: 1536px) {
+  h1 {
+    font-size: 80px;
+    font-weight: 900;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
