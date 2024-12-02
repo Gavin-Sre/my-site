@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #fefae0;
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
@@ -37,7 +37,7 @@ h2 {
 /* Small devices 640px and up */
 @media (min-width: 640px) {
   h1 {
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 900;
   }
 
@@ -50,7 +50,7 @@ h2 {
 /* Medium devices 768px and up */
 @media (min-width: 768px) {
   h1 {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 800;
   }
 
@@ -63,8 +63,8 @@ h2 {
 /* Large devices 1024px and up */
 @media (min-width: 1024px) {
   h1 {
-    font-size: 80px;
-    font-weight: 900;
+    font-size: 70px;
+    font-weight: 800;
   }
 
   h2 {
@@ -76,8 +76,8 @@ h2 {
 /* Extra large 1280px and up */
 @media (min-width: 1280px) {
   h1 {
-    font-size: 80px;
-    font-weight: 900;
+    font-size: 70px;
+    font-weight: 800;
   }
 
   h2 {
@@ -89,8 +89,8 @@ h2 {
 /* 2XL 1536px and up */
 @media (min-width: 1536px) {
   h1 {
-    font-size: 80px;
-    font-weight: 900;
+    font-size: 70px;
+    font-weight: 800;
   }
 
   h2 {
