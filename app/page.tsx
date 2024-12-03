@@ -5,9 +5,8 @@ import { useEffect, useRef, useState } from "react";
 import Timeline from "./experiences/timeline";
 
 export default function Home() {
-  // const [showSection, setShowSection] = useState(false);
   const sectionRef = useRef([]);
-  const introBanner = useRef(null);
+  // const introBanner = useRef(null);
   const callbackFunction = (entries: any) => {
     const [entry] = entries;
     console.log(entry.target);
@@ -31,10 +30,6 @@ export default function Home() {
         observer.observe(el);
       }
     });
-
-    // const banner = introBanner.current;
-    // banner.classList.remove('opacity-0');
-    // banner.classList.add('section-slider');
   }, []);
 
   return (
@@ -42,7 +37,7 @@ export default function Home() {
       <main>
         <section className="min-h-screen pt-20 relative">
           <div
-            ref={introBanner}
+            // ref={introBanner}
             className="relative grid-rows-2 justify-items-center xl:flex xl:justify-between px-5 lg:px-20"
           >
             <div className="h-1/2 flex flex-col relative items-start">
@@ -78,7 +73,7 @@ export default function Home() {
             </div>
           </div>
           {/* <div className="border-l-4 ml-80 border-[#CCD5AE] h-[300px]"></div> */}
-          <div className="ml-20 absolute top-1/2">
+          <div className="ml-20 absolute top-1/2 rounded-lg bg-[#fefae0] bg-opacity-90 p-2">
             <span className="flex gap-1">
               <span
                 className="animate-bounce"
@@ -128,18 +123,21 @@ export default function Home() {
         </section>
         <div className="px-5 lg:px-20">
           <section
-            ref={(el) => (sectionRef.current[0] = el)}
-            className={`relative transition-all duration-1000 opacity-0 right-48`}
-          >
-            <Timeline />
-          </section>
-          <section
             ref={(el) => (sectionRef.current[1] = el)}
-            className={`relative transition-all duration-1000 opacity-0 right-48`}
+            className={`relative transition-all duration-1000 opacity-0`}
           >
             <h2>About me</h2>
             {/* <p>{showSection ? "in view" : "not in view"}</p> */}
             <p>This is about me</p>
+          </section>
+          <section
+            // ref={(el) => (sectionRef.current[0] = el)}
+            className={`relative transition-all duration-1000`}
+          >
+            <Timeline />
+          </section>
+          <section>
+            <h2>Notable Projects</h2>
           </section>
         </div>
       </main>
