@@ -21,17 +21,29 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
 }
 
 .section-slider {
-  transform: translateX(12rem);
+  transform: translateX(0%);
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+.right-hidden-slider-offset {
+  transform: translateX(-50%);
+  opacity: 0;
+}
+
+.up-hidden-slider-offset {
+  transform: translateY(20%);
+  opacity: 0;
 }
 
 h3 {

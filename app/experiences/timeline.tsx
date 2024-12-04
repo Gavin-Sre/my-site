@@ -9,7 +9,7 @@ export default function Timeline() {
     console.log(entry.target);
     const target = entry.target;
     if (entry.isIntersecting) {
-      target.classList.remove("opacity-0");
+      target.classList.remove("up-hidden-slider-offset");
       target.classList.add("section-slider");
     }
   };
@@ -32,7 +32,7 @@ export default function Timeline() {
     <div>
       <h2>My Experiences</h2>
       <div
-        className="transition-all duration-1000 opacity-0"
+        className="transition-all duration-[1500ms] up-hidden-slider-offset"
         ref={(el) => (experienceRef.current[1] = el)}
       >
         <Experience
@@ -46,7 +46,7 @@ export default function Timeline() {
       </div>
 
       <div
-        className="transition-all duration-1000 opacity-0"
+        className="transition-all duration-[1500ms] up-hidden-slider-offset"
         ref={(el) => (experienceRef.current[0] = el)}
       >
         <Experience
