@@ -11,7 +11,6 @@ import "../custom-style/swiper-button.css";
 
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
-import ProjectOverlay from "./projects-info-dialog/project-overlay";
 
 export default function Notables() {
   return (
@@ -47,9 +46,9 @@ export default function Notables() {
             </div>
             <div className="relative">
               <p>This is the project's description</p>
-              <div className="bottom-10 absolute">
+              {/* <div className="bottom-10 absolute">
                 <ProjectOverlay />
-              </div>
+              </div> */}
             </div>
           </div>
         </SwiperSlide>

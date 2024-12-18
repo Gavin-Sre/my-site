@@ -25,7 +25,7 @@ export default function ProjectOverlay() {
       <Dialog open={isOpen} as="div" onClose={close}>
         <DialogPanel
           transition
-          className="fixed z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80vw] lg:w-[60vw] h-[200px] bg-black yoyoyoyoyo"
+          className="p-5 fixed z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80vw] lg:w-[60vw] h-[400px] rounded-lg bg-black yoyoyoyoyo"
         >
           <DialogTitle as="h3" className="text-base/7 font-medium text-white">
             Payment successful
