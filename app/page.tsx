@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import Timeline from "./experiences/timeline";
 import Notables from "./experiences/notables";
+import Navbar from "./components/navbar";
 
 export default function Home() {
   const sectionRef = useRef([]);
@@ -23,6 +24,8 @@ export default function Home() {
     threshold: 0.1,
   };
 
+  const projectRef = useRef(null);
+
   useEffect(() => {
     const observer = new IntersectionObserver(callbackFunction, options);
 
@@ -35,6 +38,7 @@ export default function Home() {
 
   return (
     <div className="font-[family-name:var(--font-geist-sans)] pb-10">
+      <Navbar ref={projectRef} />
       <main>
         <section className="min-h-screen relative pt-20">
           <div className="grid-rows-2 justify-items-center xl:flex xl:justify-between px-5 lg:px-20 box-border">
@@ -134,7 +138,7 @@ export default function Home() {
           >
             <Timeline />
           </section>
-          <section>
+          <section ref={projectRef}>
             <h2>Notable Projects</h2>
             <div className="w-[90vw] h-[500px]">
               <Notables />
