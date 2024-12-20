@@ -140,7 +140,7 @@ export default function Home() {
           </section>
           <section ref={projectRef}>
             <h2>Notable Projects</h2>
-            <div className="w-[90vw] h-[500px]">
+            <div className="w-[90vw] h-[600px]">
               <Notables />
             </div>
           </section>
