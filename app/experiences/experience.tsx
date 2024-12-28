@@ -18,7 +18,10 @@ export default function Experience({
   return (
     <div className="grid grid-cols-2 mb-10">
       <div className="ml-10 relative">
-        <h3>{dateStart}</h3>
+        <div className="flex">
+          <h3>{dateStart}</h3>
+          {dateEnd ? <h3>&nbsp;- {dateEnd}</h3> : null}
+        </div>
         <div className="ml-10 border-l-8 border-dashed border-[#677D6A] h-full"></div>
       </div>
       <div>

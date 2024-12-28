@@ -27,8 +27,9 @@ export default function Navbar({ ref }) {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link href="/">
-              <div className="shrink-0">
+              <div className="shrink-0 flex">
                 <CpuChipIcon className="size-10 text-white" />
+                <h3 className="text-white">GS</h3>
               </div>
             </Link>
             <div className="sm:ml-6 sm:block">
